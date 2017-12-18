@@ -1,0 +1,26 @@
+{
+    "name": "valeriitropin/socketio-emitter",
+    "type": "library",
+    "keywords": ["socket.io", "emitter", "redis"],
+    "require": {
+        "clue/redis-react": "^2.1",
+        "clue/block-react": "^1.2",
+        "rybakit/msgpack": "^0.2.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Valerii Tropin",
+            "email": "tropin.valeriy@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/valeriitropin/php-socketio-emitter/issues",
+        "source": "https://github.com/valeriitropin/php-socketio-emitter"
+    },
+    "autoload": {
+        "psr-4": {
+            "ValeriiTropin\\Socketio\\": "src/"
+        }
+    }
+}
